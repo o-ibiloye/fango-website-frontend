@@ -4,15 +4,15 @@ import Footer from '../components/footer/Footer';
 import Header from '../components/header/Header';
 import Body from '../components/body/Body';
 
-const HomePage = () => {
+const DevelopingTheSystemPage = () => {
   return (
     <Box>
       <Header />
-      <Body children={<h1>Home Page</h1>} />
+      <Body children={<h1>Developing The System Page</h1>} />
 
       <Footer />
     </Box>
   );
 };
 
-export default HomePage;
+export default DevelopingTheSystemPage;

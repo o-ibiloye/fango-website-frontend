@@ -6,5 +6,5 @@ module.exports = {
     title: `fango-website-frontend`,
     siteUrl: `https://www.yourdomain.tld`,
   },
-  plugins: [],
-}
+  plugins: ['gatsby-plugin-material-ui'],
+};
